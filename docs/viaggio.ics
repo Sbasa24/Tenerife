@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Tenerife//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:viaggio-tenerife-2026@sbasa24.github.io
+DTSTAMP:20261030T180000Z
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20270106
+SUMMARY:🌴 Tenerife!
+DESCRIPTION:Capodanno a Tenerife con il gruppo. Villa La Centinela\, El Roque. Countdown e programma: https://sbasa24.github.io/Tenerife/
+LOCATION:El Roque\, San Miguel de Abona\, Tenerife
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌴 Tenerife!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

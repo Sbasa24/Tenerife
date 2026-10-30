@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Tenerife//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:quota-villa-tenerife-2026@sbasa24.github.io
+DTSTAMP:20261030T180000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:💶 Quota villa Tenerife a Stefano (505 €)
+DESCRIPTION:Girare a Stefano la quota di Villa La Centinela: 505 € a testa. La villa si paga il 22 novembre\, senza cancellazione gratuita.
+LOCATION:
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💶 Quota villa Tenerife a Stefano (505 €)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
