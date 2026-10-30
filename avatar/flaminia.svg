@@ -27,11 +27,15 @@
     <!-- sopracciglia -->
     <path d="M70 84c7-6 17-6 23-2" fill="none" stroke="#3b2418" stroke-width="5" stroke-linecap="round"/>
     <path d="M107 82c6-4 16-4 23 2" fill="none" stroke="#3b2418" stroke-width="5" stroke-linecap="round"/>
-    <!-- occhi socchiusi con eyeliner -->
-    <path d="M71 101c6-5 14-5 20 0" fill="none" stroke="#2a1a12" stroke-width="4" stroke-linecap="round"/>
-    <path d="M91 101l6-4" stroke="#2a1a12" stroke-width="3" stroke-linecap="round"/>
-    <path d="M109 101c6-5 14-5 20 0" fill="none" stroke="#2a1a12" stroke-width="4" stroke-linecap="round"/>
-    <path d="M129 101l6-4" stroke="#2a1a12" stroke-width="3" stroke-linecap="round"/>
+    <!-- occhi verdi, socchiusi, con eyeliner -->
+    <g>
+      <path d="M70 102c6-7 16-7 22 0c-6 5-16 5-22 0z" fill="#fff"/>
+      <circle cx="81" cy="102" r="5.2" fill="#4f9a5a"/><circle cx="81" cy="102" r="2.4" fill="#1d2a1f"/><circle cx="82.6" cy="100.4" r="1.2" fill="#fff"/>
+      <path d="M68 101c7-8 17-8 24-1l6-4" fill="none" stroke="#2a1a12" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M108 102c6-7 16-7 22 0c-6 5-16 5-22 0z" fill="#fff"/>
+      <circle cx="119" cy="102" r="5.2" fill="#4f9a5a"/><circle cx="119" cy="102" r="2.4" fill="#1d2a1f"/><circle cx="120.6" cy="100.4" r="1.2" fill="#fff"/>
+      <path d="M106 101c7-8 17-8 24-1l6-4" fill="none" stroke="#2a1a12" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
     <!-- guance e lentiggini -->
     <ellipse cx="74" cy="118" rx="9" ry="5" fill="#ff9aa2" opacity=".45"/>
     <ellipse cx="126" cy="118" rx="9" ry="5" fill="#ff9aa2" opacity=".45"/>
