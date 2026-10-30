@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <clipPath id="c"><circle cx="100" cy="100" r="100"/></clipPath>
+    <radialGradient id="bg" cx="50%" cy="35%" r="75%"><stop offset="0" stop-color="#fff0c2"/><stop offset="1" stop-color="#ffd36e"/></radialGradient>
+    <radialGradient id="skin" cx="45%" cy="40%" r="65%"><stop offset="0" stop-color="#fde7d8"/><stop offset="1" stop-color="#f0c4a8"/></radialGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9c7448"/><stop offset=".5" stop-color="#c49a62"/><stop offset="1" stop-color="#e2c08a"/></linearGradient>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="200" height="200" fill="url(#bg)"/>
+    <!-- capelli lunghi dietro -->
+    <path d="M42 100c-6-42 18-68 58-68s64 26 58 68c2 40 6 70 2 110H40c-4-40 0-70 2-110z" fill="url(#hair)"/>
+    <!-- maglia -->
+    <path d="M52 212c4-28 24-44 48-44s44 16 48 44z" fill="#f2ede6"/>
+    <!-- collo -->
+    <path d="M86 140h28v28c-8 6-20 6-28 0z" fill="#e9b89a"/>
+    <!-- viso -->
+    <ellipse cx="100" cy="104" rx="43" ry="49" fill="url(#skin)"/>
+    <!-- ciocche davanti, riga di lato -->
+    <g fill="url(#hair)">
+      <path d="M58 104c-4-34 14-56 46-58 26 0 42 20 40 50-8-20-20-34-36-40-14 10-34 22-50 48z"/>
+      <path d="M59 96c-8 26-8 56 0 80 6-26 6-54 0-80z"/>
+      <path d="M141 92c8 28 8 58 0 84-6-28-6-56 0-84z"/>
+    </g>
+    <g fill="none" stroke="#f0d6a6" stroke-width="2.2" stroke-linecap="round" opacity=".9">
+      <path d="M96 52c-10 6-20 16-28 30"/><path d="M112 54c10 6 20 18 24 32"/><path d="M60 110c-2 18-2 36 2 52"/><path d="M140 110c2 18 2 36-2 52"/>
+    </g>
+    <!-- orecchini a goccia argento -->
+    <path d="M57 118c-6 4-7 14 0 18 6-3 7-12 0-18z" fill="#e6e9ee" stroke="#9aa3ad" stroke-width="1.5"/>
+    <path d="M55 124c0 4 1 7 3 9" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M143 118c6 4 7 14 0 18-6-3-7-12 0-18z" fill="#e6e9ee" stroke="#9aa3ad" stroke-width="1.5"/>
+    <!-- sopracciglia -->
+    <path d="M70 88c7-4 15-4 21 0" fill="none" stroke="#8a6440" stroke-width="4" stroke-linecap="round"/>
+    <path d="M109 88c6-4 14-4 21 0" fill="none" stroke="#8a6440" stroke-width="4" stroke-linecap="round"/>
+    <!-- occhi azzurri con eyeliner -->
+    <path d="M71 101c6-6 14-6 20 0c-6 4-14 4-20 0z" fill="#fff"/><circle cx="81" cy="100" r="4" fill="#5d93c4"/><circle cx="81" cy="100" r="1.8" fill="#14202e"/><circle cx="82.4" cy="98.6" r="1" fill="#fff"/>
+    <path d="M69 100c7-7 16-7 22 0l5-3" fill="none" stroke="#2a1a12" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M109 101c6-6 14-6 20 0c-6 4-14 4-20 0z" fill="#fff"/><circle cx="119" cy="100" r="4" fill="#5d93c4"/><circle cx="119" cy="100" r="1.8" fill="#14202e"/><circle cx="120.4" cy="98.6" r="1" fill="#fff"/>
+    <path d="M107 100c7-7 16-7 22 0l5-3" fill="none" stroke="#2a1a12" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M71 104c6 3 14 3 20 0M109 104c6 3 14 3 20 0" fill="none" stroke="#d29c80" stroke-width="1.8" stroke-linecap="round"/>
+    <!-- guance e lentiggini leggere -->
+    <ellipse cx="72" cy="116" rx="9" ry="5" fill="#ff8a8a" opacity=".38"/>
+    <ellipse cx="128" cy="116" rx="9" ry="5" fill="#ff8a8a" opacity=".38"/>
+    <g fill="#c68d6c" opacity=".55"><circle cx="78" cy="112" r="1.1"/><circle cx="84" cy="114" r="1"/><circle cx="116" cy="112" r="1.1"/><circle cx="122" cy="114" r="1"/></g>
+    <!-- naso -->
+    <path d="M100 104c-3 8-4 12 1 14" fill="none" stroke="#d29c80" stroke-width="3" stroke-linecap="round"/>
+    <!-- bel sorriso, rossetto malva -->
+    <path d="M78 126c4 18 40 18 44 0z" fill="#6a2232"/>
+    <path d="M80 127h40c-1 5-3 8-6 9H86c-3-1-5-4-6-9z" fill="#fff"/>
+    <path d="M78 126c4 18 40 18 44 0" fill="none" stroke="#9b3e52" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M78 126c8-3 16-3 22-1 6-2 14-2 22 1" fill="none" stroke="#9b3e52" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

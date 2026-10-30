@@ -7,11 +7,11 @@
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="icon-180.png">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta property="og:title" content="Tenerife ci aspetta 🌴">
+<meta property="og:title" content="Capodanno a Tenerife 🌴">
 <meta property="og:description" content="Countdown, meteo, programma e cose da fare per Capodanno a Tenerife, 30 dic – 5 gen.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8C%B4%3C/text%3E%3C/svg%3E">
 <style>*,*::before,*::after{box-sizing:border-box}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font-size:14px}img{max-width:100%}[hidden]{display:none!important}</style>
-<title>Destinazione Tenerife</title>
+<title>Capodanno a Tenerife</title>
 <meta name="theme-color" content="#04324a">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Tenerife">
@@ -51,10 +51,10 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
   padding-left:max(16px, env(safe-area-inset-left, 0px));
   padding-right:max(16px, env(safe-area-inset-right, 0px));
   display:flex;flex-direction:column;gap:22px}
-.eyebrow{font-family:var(--mono);font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
-h1{font-size:clamp(48px,14vw,86px);line-height:.88;font-weight:800;margin:10px 0 0;letter-spacing:-.03em;text-wrap:balance;
+.eyebrow{font-family:var(--mono);font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);display:flex;justify-content:center;gap:10px;flex-wrap:wrap}
+h1{text-align:center;font-size:clamp(46px,13.5vw,84px);line-height:.9;font-weight:800;margin:10px 0 0;letter-spacing:-.03em;text-wrap:balance;
   background:linear-gradient(180deg,#fff 30%,#ffd59a 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
-.tag{font-size:17px;color:var(--foam);opacity:.9;margin:12px 0 0}
+.tag{font-size:16.5px;color:var(--foam);opacity:.9;margin:14px auto 0;text-align:center;max-width:30ch;text-wrap:balance}
 .tag b{color:var(--sun)}
 
 .panel{background:var(--glass);border:1px solid var(--glass-line);border-radius:22px;
@@ -143,12 +143,13 @@ h2 span{letter-spacing:.06em;text-transform:none;opacity:.8}
 .todo li.done .t{opacity:.5;text-decoration:line-through;text-decoration-color:rgba(255,255,255,.4)}
 .todo li.key label{border:1px solid rgba(255,177,74,.45)}
 .sync{font-size:12.5px;color:var(--muted);margin:12px 2px 0;line-height:1.45}
-.crew{display:flex;flex-wrap:wrap;gap:6px;margin:18px 0 0;padding:0;list-style:none}
-.crew li{display:flex;flex-direction:column;align-items:center;gap:5px;width:46px}
-.av{width:42px;height:42px;border-radius:50%;overflow:visible;display:grid;place-content:center;font-weight:800;font-size:17px;color:#04212f;border:2px solid rgba(255,255,255,.85);box-shadow:0 4px 14px rgba(0,0,0,.25);position:relative}
-.av img{width:100%;height:100%;border-radius:50%;display:block}
-.av small{position:absolute;bottom:-4px;right:-6px;font-size:9px;font-family:var(--mono);background:var(--lava);color:#fff;border-radius:999px;padding:1px 4px;font-weight:500}
-.crew span.n{font-size:10.5px;color:var(--foam);opacity:.9;text-align:center}
+.crew{display:grid;grid-template-columns:repeat(4,1fr);gap:16px 8px;margin:0;padding:0;list-style:none;justify-items:center}
+.crew li{display:flex;flex-direction:column;align-items:center;gap:6px;min-width:0;width:100%}
+.crew li:nth-child(5){grid-column:1/span 1}
+.crew img{width:min(76px,100%);height:auto;aspect-ratio:1;border-radius:50%;border:3px solid rgba(255,255,255,.9);box-shadow:0 6px 18px rgba(0,0,0,.28);display:block}
+.crew .n{font-size:14px;font-weight:600;color:#fff;text-align:center}
+.crew .d{font-family:var(--mono);font-size:10px;color:var(--muted);text-align:center;margin-top:-4px;font-variant-numeric:tabular-nums;white-space:nowrap}
+@media (min-width:0){.crew{grid-template-columns:repeat(8,1fr)}.crew li{grid-column:span 2}.crew li:nth-child(5){grid-column:2/span 2}}
 .save{display:flex;flex-direction:column;gap:10px}
 .save .row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 .howto{font-size:13.5px;color:var(--muted);line-height:1.45;margin:0;padding:12px;border-radius:14px;background:rgba(2,26,43,.35)}
@@ -174,9 +175,8 @@ h2 span{letter-spacing:.06em;text-transform:none;opacity:.8}
 <main class="wrap" id="app">
   <header>
     <div class="eyebrow"><span>Isole Canarie · Oceano Atlantico</span><span>28°05′N 16°43′O</span></div>
-    <h1>Tenerife<br>ci aspetta</h1>
+    <h1>Capodanno<br>a Tenerife</h1>
     <p class="tag">30 dic → 5 gen · <b>7 amici</b>, una villa, un vulcano e il Capodanno sull'oceano</p>
-    <ul class="crew" aria-label="Chi parte"><li><span class="av" style="background:#ffb14a"><img src="avatar/stefano.svg?v=1" alt="" width="42" height="42"></span><span class="n">Stefano</span></li><li><span class="av" style="background:#ff8fab"><img src="avatar/flaminia.svg?v=2" alt="" width="42" height="42"></span><span class="n">Flaminia</span></li><li><span class="av" style="background:#9ee6c8">E</span><span class="n">Ernestina</span></li><li><span class="av" style="background:#c3a6ff">Z<small>31→4</small></span><span class="n">Zak</span></li><li><span class="av" style="background:#7fd3ff">V</span><span class="n">Valerio</span></li><li><span class="av" style="background:#ffd36e">V</span><span class="n">Valentina</span></li><li><span class="av" style="background:#ff9f6e">M</span><span class="n">Michele</span></li></ul>
   </header>
 
   <section class="panel count-panel" aria-label="Countdown all'arrivo">
@@ -190,6 +190,11 @@ h2 span{letter-spacing:.06em;text-transform:none;opacity:.8}
     <div class="barlbl"><span>prenotata</span><span id="pct">--%</span><span>a Tenerife</span></div>
     <p class="done-msg">¡Bienvenidos a Tenerife! 🌴</p>
     <p class="nye" id="nye">🍇 E poi le 12 uve a Playa de las Américas</p>
+  </section>
+
+  <section class="panel crew-panel" aria-labelledby="crewTitle">
+    <h2 id="crewTitle">Chi parte <span>7 persone · 1 villa</span></h2>
+    <ul class="crew"><li><img src="avatar/stefano.svg?v=3" alt="" width="76" height="76"><span class="n">Stefano</span><span class="d">30/12 → 5/1</span></li><li><img src="avatar/flaminia.svg?v=3" alt="" width="76" height="76"><span class="n">Flaminia</span><span class="d">30/12 → 5/1</span></li><li><img src="avatar/ernestina.svg?v=3" alt="" width="76" height="76"><span class="n">Ernestina</span><span class="d">30/12 → 5/1</span></li><li><img src="avatar/valentina.svg?v=3" alt="" width="76" height="76"><span class="n">Valentina</span><span class="d">30/12 → 5/1</span></li><li><img src="avatar/michele.svg?v=3" alt="" width="76" height="76"><span class="n">Michele</span><span class="d">30/12 → 5/1</span></li><li><img src="avatar/valerio.svg?v=3" alt="" width="76" height="76"><span class="n">Valerio</span><span class="d">30/12 → 5/1</span></li><li><img src="avatar/zak.svg?v=3" alt="" width="76" height="76"><span class="n">Zak</span><span class="d">31/12 → 4/1</span></li></ul>
   </section>
 
   <section class="panel save" aria-labelledby="saveTitle">

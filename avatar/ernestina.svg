@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <clipPath id="c"><circle cx="100" cy="100" r="100"/></clipPath>
+    <radialGradient id="bg" cx="50%" cy="60%" r="70%"><stop offset="0" stop-color="#ffe08a"/><stop offset=".55" stop-color="#ff8a3d"/><stop offset="1" stop-color="#d9261c"/></radialGradient>
+    <radialGradient id="skin" cx="45%" cy="40%" r="65%"><stop offset="0" stop-color="#fde6d6"/><stop offset="1" stop-color="#efc2a6"/></radialGradient>
+    <linearGradient id="fl" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#d9261c"/><stop offset=".55" stop-color="#ff7a1a"/><stop offset="1" stop-color="#ffd23f"/></linearGradient>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="200" height="200" fill="url(#bg)"/>
+    <!-- fiamme attorno -->
+    <g fill="url(#fl)">
+      <path d="M8 200c-10-40 6-60 14-86 4 18 14 22 14 22 0-26 10-44 22-56-2 22 6 30 10 34 0-20 8-38 22-52 0 18 6 28 10 32 4-18 14-30 26-38-2 16 4 28 10 34 4-14 12-22 22-28-4 18 2 30 8 38 4-8 10-12 16-14-4 16 0 26 6 34 8 22 10 50 2 80z"/>
+    </g>
+    <g fill="#ffe36b" opacity=".85">
+      <path d="M22 200c-4-22 4-34 10-46 2 10 8 14 8 14 2-14 8-22 14-28 0 12 4 18 6 20M178 200c4-22-4-34-10-46-2 10-8 14-8 14-2-14-8-22-14-28 0 12-4 18-6 20"/>
+    </g>
+    <!-- capelli dietro: caschetto -->
+    <path d="M44 100c-6-40 18-66 56-66s62 26 56 66l2 50c-6 6-16 8-26 6l-2-40H70l-2 40c-10 2-20 0-26-6z" fill="#2e1d16"/>
+    <!-- maglia scura -->
+    <path d="M42 212c4-30 28-46 58-46s54 16 58 46z" fill="#1e1a1f"/>
+    <!-- collo -->
+    <path d="M86 140h28v26c-8 6-20 6-28 0z" fill="#e8b496"/>
+    <!-- orecchini di perla -->
+    <circle cx="56" cy="124" r="4.5" fill="#fbf6ee" stroke="#d9cbb4" stroke-width="1.2"/>
+    <circle cx="144" cy="124" r="4.5" fill="#fbf6ee" stroke="#d9cbb4" stroke-width="1.2"/>
+    <!-- viso -->
+    <ellipse cx="100" cy="104" rx="43" ry="49" fill="url(#skin)"/>
+    <!-- frangetta laterale e ciocche del caschetto -->
+    <g fill="#2e1d16">
+      <path d="M56 104c-4-34 14-56 44-58 30 0 48 22 44 56-6-18-16-30-30-36-6 10-18 18-34 22 8-6 12-12 12-20-16 6-28 18-36 36z"/>
+      <path d="M57 98c-6 20-6 40 2 54 4-18 4-36-2-54z"/>
+      <path d="M143 98c6 20 6 40-2 54-4-18-4-36 2-54z"/>
+    </g>
+    <g fill="none" stroke="#5a3a2c" stroke-width="2.2" stroke-linecap="round" opacity=".8">
+      <path d="M80 54c10-4 22-4 32 0"/><path d="M118 60c10 6 18 16 20 28"/><path d="M60 80c4-10 10-16 18-20"/>
+    </g>
+    <!-- sopracciglia -->
+    <path d="M70 87c7-4 15-4 21 0" fill="none" stroke="#2e1d16" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M109 87c6-4 14-4 21 0" fill="none" stroke="#2e1d16" stroke-width="4.5" stroke-linecap="round"/>
+    <!-- occhi chiusi con ciglia (bacetto) -->
+    <path d="M71 101c6 5 14 5 20 0" fill="none" stroke="#2a1a12" stroke-width="3.6" stroke-linecap="round"/>
+    <path d="M73 104l-2 4M80 106l-1 4M87 104l1 4" stroke="#2a1a12" stroke-width="2" stroke-linecap="round"/>
+    <path d="M109 101c6 5 14 5 20 0" fill="none" stroke="#2a1a12" stroke-width="3.6" stroke-linecap="round"/>
+    <path d="M111 104l-1 4M118 106l0 4M125 104l2 4" stroke="#2a1a12" stroke-width="2" stroke-linecap="round"/>
+    <!-- guance -->
+    <ellipse cx="72" cy="116" rx="9" ry="5" fill="#ff6f7d" opacity=".45"/>
+    <ellipse cx="128" cy="116" rx="9" ry="5" fill="#ff6f7d" opacity=".45"/>
+    <!-- naso -->
+    <path d="M100 104c-3 8-4 12 1 14" fill="none" stroke="#d7997c" stroke-width="3" stroke-linecap="round"/>
+    <!-- labbra a bacetto, rosso scuro -->
+    <path d="M92 130c2-6 7-8 10-5 3-3 8-1 10 5-2 7-6 10-10 10s-8-3-10-10z" fill="#8c1426"/>
+    <path d="M93 130c5 1 13 1 18 0" fill="none" stroke="#5e0c19" stroke-width="2" stroke-linecap="round"/>
+    <ellipse cx="98" cy="127.5" rx="2.6" ry="1.3" fill="#fff" opacity=".5"/>
+    <path d="M90 128c-2 1-3 3-2 5M114 128c2 1 3 3 2 5" fill="none" stroke="#d7997c" stroke-width="1.6" stroke-linecap="round"/>
+    <!-- cuoricino del bacio -->
+    <path d="M128 132c0-4 6-5 7-1 1-4 7-3 7 1 0 5-7 8-7 8s-7-3-7-8z" fill="#ff3b5c" stroke="#fff" stroke-width="1.2"/>
+    <!-- fiamme davanti, ai lati -->
+    <g fill="url(#fl)">
+      <path d="M0 200V96c8 10 10 22 8 34 8-14 18-20 26-22-8 14-6 26 0 36 4-10 10-14 16-16-6 12-6 24 0 34 2 14-2 28-10 38z"/>
+      <path d="M200 200V96c-8 10-10 22-8 34-8-14-18-20-26-22 8 14 6 26 0 36-4-10-10-14-16-16 6 12 6 24 0 34-2 14 2 28 10 38z"/>
+    </g>
+    <g fill="#ffe36b">
+      <path d="M6 200c-4-20 0-34 8-44 0 12 4 18 8 20 2-10 6-16 12-18-4 12-2 22 4 30 0 6-2 10-6 12z"/>
+      <path d="M194 200c4-20 0-34-8-44 0 12-4 18-8 20-2-10-6-16-12-18 4 12 2 22-4 30 0 6 2 10 6 12z"/>
+    </g>
+  </g>
+</svg>
