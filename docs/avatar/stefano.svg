@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <clipPath id="c"><circle cx="100" cy="100" r="100"/></clipPath>
+    <radialGradient id="bg" cx="50%" cy="35%" r="75%"><stop offset="0" stop-color="#ffe2a8"/><stop offset="1" stop-color="#ffb14a"/></radialGradient>
+    <radialGradient id="skin" cx="45%" cy="40%" r="65%"><stop offset="0" stop-color="#f6cfae"/><stop offset="1" stop-color="#e2a985"/></radialGradient>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="200" height="200" fill="url(#bg)"/>
+    <!-- maglietta -->
+    <path d="M40 210c4-30 30-46 60-46s56 16 60 46z" fill="#f4f1ec"/>
+    <path d="M82 166c6 9 30 9 36 0" fill="none" stroke="#dcd6cc" stroke-width="3" stroke-linecap="round"/>
+    <!-- collo -->
+    <path d="M84 138h32v28c-9 7-23 7-32 0z" fill="#d99c78"/>
+    <!-- orecchie -->
+    <ellipse cx="55" cy="108" rx="9" ry="13" fill="#e2a985"/>
+    <ellipse cx="145" cy="108" rx="9" ry="13" fill="#e2a985"/>
+    <!-- viso -->
+    <path d="M56 96c0-30 20-50 44-50s44 20 44 50c0 34-18 58-44 58S56 130 56 96z" fill="url(#skin)"/>
+    <!-- barba corta -->
+    <path d="M60 112c2 26 18 42 40 42s38-16 40-42c-6 14-16 22-26 24H86c-10-2-20-10-26-24z" fill="#5b4a42" opacity=".55"/>
+    <g fill="#4a3a33" opacity=".5"><circle cx="72" cy="128" r="1"/><circle cx="78" cy="136" r="1"/><circle cx="90" cy="144" r="1"/><circle cx="110" cy="144" r="1"/><circle cx="122" cy="136" r="1"/><circle cx="128" cy="128" r="1"/><circle cx="100" cy="148" r="1"/></g>
+    <!-- capelli corti ricci con ciuffo -->
+    <g fill="#2b1d17">
+      <path d="M54 92c-4-30 16-56 46-56s50 24 46 56c-4-12-8-20-14-24-10 2-24 2-36-2-14 2-26 10-32 20z"/>
+      <circle cx="66" cy="62" r="12"/><circle cx="82" cy="48" r="13"/><circle cx="100" cy="42" r="14"/><circle cx="118" cy="44" r="14"/><circle cx="134" cy="54" r="13"/><circle cx="144" cy="70" r="10"/>
+      <!-- ciuffo -->
+      <path d="M96 30c14-12 36-6 40 10 2 10-6 16-14 12 6-4 6-12-2-14-8-2-16 2-24 8z"/>
+      <circle cx="108" cy="32" r="12"/>
+    </g>
+    <g fill="none" stroke="#5a4136" stroke-width="2.4" stroke-linecap="round" opacity=".85">
+      <path d="M80 46c4 3 4 7 0 10"/><path d="M104 36c5 3 5 8 0 11"/><path d="M126 42c4 3 4 7 0 10"/><path d="M64 60c3 3 3 7 0 9"/>
+    </g>
+    <!-- sopracciglia -->
+    <path d="M68 84c7-5 16-5 22-1" fill="none" stroke="#2b1d17" stroke-width="5" stroke-linecap="round"/>
+    <path d="M110 83c6-4 15-4 22 1" fill="none" stroke="#2b1d17" stroke-width="5" stroke-linecap="round"/>
+    <!-- occhi marroni -->
+    <ellipse cx="80" cy="99" rx="7" ry="5" fill="#fff"/><circle cx="80" cy="99" r="4" fill="#6b3f22"/><circle cx="80" cy="99" r="1.8" fill="#1f130c"/><circle cx="81.4" cy="97.6" r="1" fill="#fff"/>
+    <ellipse cx="120" cy="99" rx="7" ry="5" fill="#fff"/><circle cx="120" cy="99" r="4" fill="#6b3f22"/><circle cx="120" cy="99" r="1.8" fill="#1f130c"/><circle cx="121.4" cy="97.6" r="1" fill="#fff"/>
+    <!-- occhiali tondi tartarugati -->
+    <g fill="none" stroke="#5a3a28" stroke-width="4.5">
+      <circle cx="80" cy="99" r="15"/><circle cx="120" cy="99" r="15"/>
+      <path d="M95 97c3-3 7-3 10 0"/><path d="M65 95l-9-3"/><path d="M135 95l9-3"/>
+    </g>
+    <g fill="none" stroke="#9a6a45" stroke-width="1.6" opacity=".7"><path d="M70 88c3-3 7-4 10-4"/><path d="M110 88c3-3 7-4 10-4"/></g>
+    <!-- naso -->
+    <path d="M100 100c-3 10-5 15 1 17" fill="none" stroke="#c9876a" stroke-width="3" stroke-linecap="round"/>
+    <!-- bocca -->
+    <path d="M90 134c6 3 14 3 20 0" fill="none" stroke="#b5615f" stroke-width="4" stroke-linecap="round"/>
+    <!-- baffo a manubrio -->
+    <path d="M100 121c-8-4-18-4-26 2-6 4-10 2-12-4-1 8 4 14 12 13 9-1 16-6 26-6s17 5 26 6c8 1 13-5 12-13-2 6-6 8-12 4-8-6-18-6-26-2z" fill="#2b1d17"/>
+    <path d="M62 119c-4-2-6-6-4-10" fill="none" stroke="#2b1d17" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M138 119c4-2 6-6 4-10" fill="none" stroke="#2b1d17" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+</svg>
